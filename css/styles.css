@@ -1,0 +1,537 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background-color: #F1F6F9;
+}
+
+.header-img {
+    width: 80%;
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.title-text {
+    margin-top: 50px;
+}
+
+.p-text {
+    text-align: left;
+}
+
+.row {
+    padding: 3% 5% 7%;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.icon {
+    color: #14274E;
+    margin: 20px 130px 20px;
+}
+
+.icon:hover {
+    color: #394867;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#features {
+    padding: 7% 18%;
+}
+
+.features-row {
+    margin-left: -140px;
+}
+
+.feature-box {
+    margin: 10px 0px;
+}
+
+.feature-box p {
+    text-align: center;
+}
+
+.review h3 {
+    text-align: left;
+}
+
+.review-one {
+    background: linear-gradient(#394867 2%, hsl(0, 0%, 98%) 0);
+    width: 20%;
+    padding: 2% 2% 5% 3%;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    left: 10%;
+    top: 65%;
+}
+
+.review-one-img {
+    width: 20%;
+    position: relative;
+    top: 30px;
+    left: 75%;
+    margin: 0;
+}
+
+.review-one:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.review-two {
+    background: linear-gradient(#C9CCD5 2%, hsl(0, 0%, 98%) 0);
+    width: 20%;
+    padding: 2% 2% 5% 3%;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 20px 20px hsl(229, 6%, 66%);
+    left: 38%;
+    top: 40%;
+}
+
+.review-two-img {
+    width: 20%;
+    position: relative;
+    top: 30px;
+    left: 75%;
+    margin: 0;
+}
+
+.review-two:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.foot {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.review-three {
+    background: linear-gradient( #9BA4B4 2%, hsl(0, 0%, 98%) 0);
+    width: 20%;
+    padding: 2% 2% 5% 3%;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    left: 38%;
+    top: 85%;
+}
+
+.review-three-img {
+    width: 20%;
+    position: relative;
+    top: 30px;
+    left: 75%;
+    margin: 0;
+}
+
+.review-three:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.review-four {
+    background: linear-gradient( #394867 2%, hsl(0, 0%, 98%) 0);
+    width: 20%;
+    padding: 2% 2% 5% 3%;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    left: 66%;
+    top: 65%;
+}
+
+.review-four-img {
+    width: 20%;
+    position: relative;
+    top: 30px;
+    left: 75%;
+    margin: 0;
+}
+
+.review-four:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F1F6F9;
+    padding-top: 100px;
+}
+
+
+/* background icons */
+
+.bg-icon {
+    color: #14274E;
+    opacity: 0.8;
+}
+
+.bg-icon-one {
+    position: relative;
+    left: 50%;
+    bottom: 70px;
+}
+
+.bg-icon-two {
+    position: relative;
+    left: 45%;
+    bottom: 350px;
+}
+
+.bg-icon-three {
+    position: relative;
+    left: 80%;
+    bottom: 250px;
+}
+
+.bg-icon-four {
+    position: relative;
+    top: 20px;
+}
+
+.bg-icon-five {
+    position: relative;
+    top: 30px;
+    left: 20%;
+}
+
+.bg-icon-six {
+    position: relative;
+    top: 30px;
+    left: 80%;
+}
+
+
+/* tetimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #14274E;
+    color: #fff;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 10% 15% 10%;
+}
+
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #F1F6F9;
+}
+
+#pricing p {
+    text-align: center;
+    color: #14274E;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-header,
+.price-head-text {
+    color: #14274E;
+}
+
+
+/* cards */
+
+.card-title-one {
+    color: #394867;
+    line-height: 1;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+
+.sneak-text {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 70px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.cardd {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.peek-icon {
+    opacity: .3;
+    position: relative;
+    top: -200px;
+}
+
+#sign-up {
+    background-color: #F1F6F9;
+}
+
+.sign-up-img {
+    width: 80%;
+}
+
+.sign-up-row {
+    margin-top: 100px;
+}
+
+form {
+    max-width: 350px;
+    margin: 30px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #14274E;
+    border-radius: 30px;
+}
+
+.button {
+    border-radius: 30px;
+}
+
+#footer {
+    background-color: #14274E;
+    color: #F1F6F9;
+}
+
+@media (max-width: 1028px) {
+    .bg-icon {
+        display: none;
+    }
+    .header-img {
+        width: 50%;
+        position: relative;
+        left: 50%;
+        bottom: 40%;
+    }
+    p {
+        text-align: center;
+    }
+    .features-row {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .features-row {
+        text-align: center;
+    }
+    .icon {
+        margin: 20px 110px 20px;
+    }
+    .about-row {
+        display: block;
+        width: 200%;
+    }
+    .review {
+        margin-left: 190px;
+        margin-top: 20px;
+    }
+    .review p {
+        text-align: left;
+    }
+    /* background icons */
+    .bg-icon {
+        color: #14274E;
+        opacity: 0.8;
+    }
+    .bg-icon-one {
+        position: relative;
+    }
+    .bg-icon-two {
+        position: relative;
+        left: 75%;
+    }
+    .bg-icon-three {
+        position: relative;
+        left: 85%;
+    }
+    .bg-icon-four {
+        position: relative;
+        top: -270px;
+        left: -20px;
+    }
+    .bg-icon-five {
+        position: relative;
+        top: -200px;
+    }
+    .bg-icon-six {
+        position: relative;
+        left: 70%;
+        top: -60px;
+    }
+    .container-card {
+        margin-left: 27%;
+    }
+    .cardd {
+        margin-bottom: 20px;
+        position: relative;
+        left: -50px;
+    }
+    .sneak-text {
+        text-align: center;
+        margin-right: 20px;
+    }
+    .sign-up-img {
+        width: 50%;
+        position: relative;
+        left: 50%;
+        bottom: 40%;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-img {
+        display: none;
+    }
+    .bg-icon {
+        display: none;
+    }
+    h1 {
+        line-height: 1.3;
+        font-size: 2.5rem;
+    }
+    .p-text {
+        font-size: 0.8rem;
+    }
+    .pp {
+        font-size: 0.8rem;
+        margin-left: 10px;
+    }
+    h3 {
+        white-space: nowrap;
+        margin-left: 10px;
+    }
+    .button-phone {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        border-radius: 0.2rem;
+    }
+    .icon {
+        margin: 20px 50px 20px;
+    }
+    .features-row {
+        margin-left: -20px;
+        width: 130%;
+    }
+    .review h3 {
+        font-size: 1rem;
+    }
+    .review p {
+        font-size: .6rem;
+        text-align: center;
+    }
+    .fa-2x {
+        font-size: 1em;
+    }
+    .about-row {
+        width: 110%;
+        padding-bottom: 100px;
+    }
+    .review-one,
+    .review-two,
+    .review-three,
+    .review-four {
+        position: relative;
+        left: -10%;
+        width: 40%;
+    }
+    .review-one-img,
+    .review-two-img,
+    .review-three-img,
+    .review-four-img {
+        position: relative;
+        left: 75%;
+        margin-bottom: 30px;
+    }
+    .review h3 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .review {
+        position: relative;
+        left: -75px;
+    }
+    .carousel-item h2 {
+        font-size: 1rem;
+    }
+    .carousel-item em {
+        font-size: .7rem;
+    }
+    .carousel-item {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .card-header h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .card-price {
+        width: 150%;
+        position: relative;
+        left: -35px;
+    }
+    .sneak-text {
+        position: relative;
+        left: -20px;
+    }
+    .cardd {
+        position: relative;
+        left: -100px;
+    }
+}
